@@ -1,0 +1,28 @@
+{
+  "name": "exchanges",
+  "version": "1.0.0",
+  "description": "Client for crypto currency exchange APIs.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "bitcoin",
+    "litecoin",
+    "dogecoin",
+    "crypto",
+    "currency"
+  ],
+  "author": "Anthony Ettinger <anthony@chovy.com> (http://chovy.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
